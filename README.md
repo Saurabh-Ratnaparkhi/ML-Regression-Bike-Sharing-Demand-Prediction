@@ -36,3 +36,11 @@ The dataset contains weather information (Temperature, Humidity, Windspeed, Visi
    • Holiday - Holiday/No holiday
    
    • Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
+
+## 📖 EDA Observations and findings
+
+* From Exploratory Data Analysis, we found that the bike rentals follow an hourly trend
+where it hits the first peak in the morning and the highest peak next, in the evening.
+* It was also found that these trends are prominent only during weekdays and working days, leading us to make a safe assumption that office-goers make a notable contribution in bike sharing demand. 
+* In addition, seasons were observed to have a notable effect on bike rentals, seeing high traffic during the summers and a significant
+low during the winters.
