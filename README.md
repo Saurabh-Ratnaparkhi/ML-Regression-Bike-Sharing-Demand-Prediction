@@ -45,19 +45,19 @@ where it hits the first peak in the morning and the highest peak next, in the ev
 * In addition, seasons were observed to have a notable effect on bike rentals, seeing high traffic during the summers and a significant
 low during the winters.
 
-## 📖 Evaluation Metric
+## 📖 Implementation of models and evaluation Metrics
+As the data available is collected only over the period of one year, time-series forecasting is not considered. But instead, traditional regressive Machine Learning Models are trained and evaluated
+  * Linear Regression 
+  * Lasso Regression 
+  * Decision Tree
+
+The top models are picked to tune hyperparameters in order to further optimize their results.
+
 The metrics measured for evaluating performance of bike share prediction models are:
   * MSE
   * RMSE
   * MAE
   * R-SQUARED, and
   * Adjusted R-SQUARED
-
-As the data available is collected only over the period of one year, time-series forecasting is not considered. But instead, traditional regressive Machine Learning Models are trained and evaluated
-  * Linear Regression 
-  * Lasso Regression 
-  * Decision Tree
-The top models are picked to tune hyperparameters in order to further optimize
-their results.
 
 ## 📖 Results
