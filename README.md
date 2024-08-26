@@ -62,12 +62,13 @@ The metrics measured for evaluating performance of bike share prediction models 
 
 ## 📖 Conclusions
 
-Hyperparameter tuning increased the R squared scores of the models.
 The project successfully demonstrated the feasibility of using machine learning techniques to predict bike demand in Seoul.
+
 Some of the key insights are:-
    * High demand in the morning and evening.
    * Less Demand in the winter season.
    * Highest demand in june.
    * Found multicollinearity between temperature and dew point temperature.
    * Perform linear regression, lasso regression, decision tree & got highest accuracy i.e 83% on train and 78% on test on decision tree.
+   * Hyperparameter tuning increased the R squared scores of the models.
    * There is no use of removing outliers, it affects negatively on model performance. Overall, the project highlights the potential of machine learning in solving real-world problems and provides a roadmap for        future research in this area. The findings of this project can be extended to other cities with similar bike sharing systems, leading to more effective and efficient bike sharing operations, and better            outcomes for all stakeholders.
